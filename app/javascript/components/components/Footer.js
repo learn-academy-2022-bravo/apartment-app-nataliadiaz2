@@ -14,7 +14,7 @@ export default class Footer extends Component {
     console.log("current_user:", current_user)
     return (
       <>
-        {/* <h3>Footer</h3> */}
+        <h3>Footer</h3>
         <p>&copy; Natalia Diaz </p>
         <Nav>
           {logged_in &&

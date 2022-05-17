@@ -14,6 +14,7 @@ class Header extends Component {
     console.log("current_user:", current_user)
     return (
       <>
+        <h3>Header</h3>
         <Nav>
           {logged_in &&
             <NavItem>
