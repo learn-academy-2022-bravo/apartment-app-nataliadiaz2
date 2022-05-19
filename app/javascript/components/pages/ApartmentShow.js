@@ -22,14 +22,7 @@ export default class ApartmentShow extends Component {
             <img src={apartment.image} width="200px"/>
           </div>
           }
-          {/* <NavLink to={`/apartmentedit/${this.props.apartment.id}`}>
-            <Button>Edit Apartment Profile</Button>
-          </NavLink> */}
-          {/* <NavLink to="/apartmentindex">
-            <Button onClick={() => this.props.deleteApartment(this.props.apartment.id)} name= "submit">
-              Delete Apartment Profile
-            </Button>
-          </NavLink> */}
+     
       </>
     )
   }
